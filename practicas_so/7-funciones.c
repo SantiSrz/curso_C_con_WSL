@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int esPar(int num){
+void esPar(int num){
     if (num % 2 == 0){
         printf("El numero %d es par\n", num);
     }else if(num % 2 != 0){
